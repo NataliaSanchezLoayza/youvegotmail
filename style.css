@@ -1,0 +1,160 @@
+body,
+html {
+	font-size: 20px;
+	margin: 5%;
+	background-color: #f0f0f0;
+}
+
+.photo-rest figcaption {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	font-size: 10px;
+	padding: 10px;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	color: #cb181d; 
+	text-shadow: -1px 0 #252525, 0 1px #252525, 1px 0 #252525, 0 -1px #252525;
+}
+
+h6 {
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	padding-top: 0px;
+}
+
+
+p {
+	padding: 8px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h4 {
+	font-family: 'Oswald', sans-serif;
+}
+
+
+.photo-rest img {
+  max-width: 100%;
+  height: auto;
+  display: table;
+	margin: 0 auto;
+}
+
+.text-area {
+	font-size: 18px;
+}
+
+.grid-item1 {
+	height: auto;
+	margin: 4px;
+	margin-bottom: 20px;
+	padding: 10px;
+
+}
+
+.grid-item2 {
+	background-color: white;
+	margin: 4px;
+	margin-bottom: 20px;
+	padding: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 17px;
+	max-width: 100%;
+  height: auto;
+}
+
+
+.grid-item1 img {
+	width: 80px;
+	height: auto;
+	padding: 20px;
+	display: table;
+	margin: 0 auto;
+	border-style: solid;
+	border-color: #e5f5e0;
+	border-width: 10px;
+	
+}
+
+.footer {
+  width: auto;
+  height: auto;
+  margin: 4px;
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: #67000d;
+  color: white;
+  font-size: 12px;
+  line-height: 10px;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+
+@media(min-width:  681px) {
+
+body,
+html {
+	font-size: 30px;
+	margin: 8%;
+
+}
+
+.photo-rest figcaption {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	font-size: 13px;
+	padding: 10px;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	padding: 8px;
+}
+
+
+.photo-rest img {
+  max-width: 70%;
+  height: auto;
+  display: table;
+	margin: 0 auto;
+}
+	.text-area {
+		font-size: 22px;
+	}
+
+
+	.grid-area {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin: 5px;
+
+	}
+
+	.grid-item2 {
+		flex-basis:60%;
+		flex-grow: 2;
+		font-size: 18px;
+
+	}
+
+	.grid-item1 img {
+	width: 120px;
+
+}
+
+.footer {
+	font-size: 15px;
+}
+
+
+}
